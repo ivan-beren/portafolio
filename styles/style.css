@@ -6,10 +6,18 @@ body {
 }
 
 header {
+    display:flex;
+    align-items: center;
+    justify-content: center;
     background-color: #333;
     color: white;
-    text-align: center;
     padding: 1rem;
+}
+
+header img {
+    max-width: 90px;
+    height: auto;
+    margin-right: 1rem;
 }
 
 section {
@@ -27,13 +35,12 @@ li {
 }
 
 footer {
+    position: relative;
     text-align: center;
     background-color: #333;
     color: white;
     padding: 1rem;
-    position: relative;
-    bottom: 0;
-    width: 100%;
+    margin-top: 2rem;
     border-top: 2px solid #ddd;
 }
 
